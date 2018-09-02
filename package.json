@@ -1,0 +1,31 @@
+{
+  "name": "bitcornwallet.com",
+  "version": "1.0.0",
+  "description": "Bitcorn Wallet",
+  "author": "Dan Anderson",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "@nuxtjs/auth": "^4.5.1",
+    "@nuxtjs/font-awesome": "^1.0.3",
+    "bitcore-lib": "^0.15.0",
+    "bitcore-mnemonic": "^1.5.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
